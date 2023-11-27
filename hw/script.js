@@ -162,10 +162,19 @@
 // console.log(numbers.join());
 
 // task 22
-let sentence = "Это пример разделения строки на слова";
+// let sentence = "Это пример разделения строки на слова";
+// console.log(sentence.split().join());
 
 // task 23
 // Разделение строки по запятой
 // Разделите строку, содержащую перечень элементов, разделенных запятыми, на массив элементов.
 // let items = "apple, banana, cherry, date";
+// console.log(items.split());
+
+
+// const array1 = ['a', 'b', 'c'];
+
+// array1.forEach((element) => console.log(element));
+// let num = [1,2,3,4,6]
+// num.forEach((el)=> console.log(el));
 
