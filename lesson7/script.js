@@ -89,34 +89,6 @@
 // }
 // console.log(flip('L',[3,4,5,2,67,1]));
 
-// let alphabet = [
-//     "a",
-//     "b",
-//     "c",
-//     "d",
-//     "e",
-//     "f",
-//     "g",
-//     "h",
-//     "i",
-//     "j",
-//     "k",
-//     "l",
-//     "m",
-//     "n",
-//     "o",
-//     "p",
-//     "q",
-//     "r",
-//     "s",
-//     "t",
-//     "u",
-//     "v",
-//     "w",
-//     "x",
-//     "y",
-//     "z",
-//   ];
 
 //   function position(letter){
 //     let alphabet = [
@@ -203,9 +175,48 @@
 // console.log(generateHashtag('hello World'));
 
 
-let myFunc = (str)=> {
-    return str.split(' ').map((el)=> {
-        return el.split('').reverse()
-    }).join()
-}
-console.log(myFunc('The quick brown.'));
+// let myFunc = (str)=> {
+//     return str.split(' ').map((el)=> {
+//         return el.split('').reverse().join('')
+//     }).join()
+// }
+// console.log(myFunc('The quick brown'));
+
+// const flip=(d, a)=>{
+//     return d == 'R' ?  a.sort((a,b)=> a - b): a.sort((a,b)=> b - a)
+//   }
+//   console.log(flip('L', [3,12, 2,5, 1, 2]));
+
+// ?
+//   function sumCubes(n){
+//     //   let sum = 0
+//       return n.reduce((accumulator, currentValue)=> {
+//         return accumulator * currentValue
+//       },0)
+//   }
+//   console.log(sumCubes(3));
+
+// function arrayDiff(a, b) {
+//   return a.filer((el)=> {
+//       return el
+//   })
+// }
+// console.log(arrayDiff([1,2,3,4],[3]));
+
+
+
+
+function highAndLow(numbers){
+    let num = Math.max(...numbers)
+    let min = Math.min(...numbers)
+    let res = `${min} ${num}`
+    return res
+  }
+  console.log(highAndLow([9,2,-2,4,34,5,67,3,9]));
+
+
+
+
+// console.log(Math.max(1,2,3,5,8));
+// console.log(Math.min(-4,1,2,3,5,8));
+
