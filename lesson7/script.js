@@ -206,13 +206,14 @@
 
 
 
-function highAndLow(numbers){
-    let num = Math.max(...numbers)
-    let min = Math.min(...numbers)
-    let res = `${min} ${num}`
-    return res
-  }
-  console.log(highAndLow([9,2,-2,4,34,5,67,3,9]));
+// function highAndLow(numbers){
+//     let num = Math.max(...numbers)
+//     let min = Math.min(...numbers)
+//     let res = `${min} ${num}`
+//     let result = `${num} ${min}`
+//     return `${min} ${num}` ? res : result
+//   }
+//   console.log(highAndLow([9,2,-2,4,34,5,67,3,9]));
 
 
 
