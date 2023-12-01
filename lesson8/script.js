@@ -105,7 +105,6 @@
 // .reduce((acc,elem)=> acc + elem)
 // console.log(res);
 
-
 // task 3
 // let num = [5,15,315,2,13,20,9]
 // let res = num.filter((el)=> el> 10 ? el : null)
@@ -158,7 +157,9 @@
 // console.log(type.reduce((acc,el)=> typeof acc === typeof el ? true : false));
 
 // task 12
-let usereas;
+// let usered = 'тестинг';
+// let chet = usered.length % 2 !== 0 ? usered[3] : usered[1]
+// console.log(chet);
 
 // task 13
 // let num = [5, -3, 13, -7, 45]
@@ -176,19 +177,19 @@ let usereas;
 // console.log(meonys)
 
 // task 16
-let lorem = ['Lorem ipsum dor sit omet devour il ela sit']
-let res = lorem.map((el,index)=> {
-    return  index +1
-})
-console.log(res);
-// console.log(lorem.reduce((el,idn) =>  idn));
+// let lorem = ['Lorem ipsum dor sit omet devour il ela sit']
+// let res = lorem.map((el)=> {
+//     return el.split('').map((el,index)=> (index % 2 === 0 ? el.toUpperCase() : el.toLowerCase())).join('')
+// })
+// console.log(res);
+
 
 // task 17
-let name = ['Оскар', 'Баяман', 'Калмамат']
-let user = name.filter((el,index)=> {
-    return el + index + 1;
-})
-console.log(user);
+// let name = ['Оскар', 'Баяман', 'Калмамат','Nurtilek']
+// let user = name.map((el,index)=> {
+//     return (index + 1) + ' ' + el 
+// }).join()
+// console.log(user);
 
 // task 18
 // let num = [2,456,9,6,8]
@@ -197,11 +198,10 @@ console.log(user);
 // console.log(number);
 
 // task 20
-let num = [5,15,315,2,13,20,9]
-let number = num.reduce((acc,el)=> acc + el % num.length)
-console.log(number);
+// let num = [5,15,315,2,13,20,9]
+// let number = num.reduce((acc,el)=> acc + el / num.length)
+// console.log(number);
 
-// 379 chyksa 54
 
 
 
