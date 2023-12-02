@@ -41,12 +41,71 @@
 // }
 // console.log(myFn(num));
 
-let numb = ['13 24 53 -9']
-const numFn = (...num)=> {
-    if(num > 0){
-        return num.length
-    }  
-    return null
+
+// Даны три целых числа. Найти количество положительных чисел в исходном наборе.
+
+// let num = [13,24,53,-9,23,-20,5]
+// let res = num.filter((el)=> el > 0 ? el : false)
+// console.log(res.length);
+
+
+
+// let num = [40,50,-9,98,-30,-90,9]
+// let res = num.filter((el)=> {
+//     if(el > 0){
+//         return el
+//     }
+// })
+// let resOtr = num.filter((el) => el < 0 ? el : false)
+// console.log(`положительных: ${res.length}  отрицательных ${resOtr.length}`);
+
+
+
+
+
+// // ?
+// let a = [12,32]
+// let b = Math.max(...a)
+
+// console.log(Math.min(...a));
+// console.log(a.sort((a,b)=> a > b))
+
+// console.log(Math.cbrt(9));
+// let  num = [34,12,500,23,45]
+// console.log(num.sort((a,b)=> b - a));
+
+// let num = [12,43,65]
+// console.log(`chonu -> ${Math.max(...num)}, kichinesi ->${Math.min(...num)}`);
+
+// function generateHashtag(str) {
+//   let result = str
+//     .split(" ")
+//     .filter((elem) => {
+//       return elem !== "" && elem !== " ";
+//     })
+//     .map((el) => {
+//       return el !== " " ? el[0].toUpperCase() + el.slice(1) : false;
+//     })
+//     .join("");
+//   let hashtag = "#" + result;
+//   return str && result && result.length < 140 ? hashtag : false;
+// }
+// console.log(generateHashtag('               '));
+
+
+
+function myFn(str){
+    let name = str.split(' ').filter((el)=> el !== el.toUpperCase())
+    .map((el)=>el !== '' && el !== " " ?  el[0].toUpperCase()  + el.slice(1).toLowerCase() : false).join('')
+    return name !== '' && name !== ' '.replace(name.length) ? "#" + name : false  
 }
-console.log(+numb > 0 ? +numb : false);
-console.log(numFn(numb));
+console.log(myFn('    '))
+
+// function myFn(str){
+//     let name = str.split(' ').filter((el)=> el !== el.toUpperCase())
+//     .map((el)=>el !== '' && el !== " " ?  el[0].toUpperCase()  + el.slice(1).toLowerCase() : false).join('')
+//     if(name !== '' && name !== ' '.replace(name.length)){
+//         return "#" + name
+//     } return false
+// }
+console.log(myFn('    '))
