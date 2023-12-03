@@ -94,12 +94,12 @@
 
 
 
-function myFn(str){
-    let name = str.split(' ').filter((el)=> el !== el.toUpperCase())
-    .map((el)=>el !== '' && el !== " " ?  el[0].toUpperCase()  + el.slice(1).toLowerCase() : false).join('')
-    return name !== '' && name !== ' '.replace(name.length) ? "#" + name : false  
-}
-console.log(myFn('    '))
+// function myFn(str){
+//     let name = str.split(' ').filter((el)=> el !== el.toUpperCase())
+//     .map((el)=>el !== '' && el !== " " ?  el[0].toUpperCase()  + el.slice(1).toLowerCase() : false).join('')
+//     return name !== '' && name !== ' '.replace(name.length) ? "#" + name : false  
+// }
+// console.log(myFn('    '))
 
 // function myFn(str){
 //     let name = str.split(' ').filter((el)=> el !== el.toUpperCase())
@@ -108,4 +108,14 @@ console.log(myFn('    '))
 //         return "#" + name
 //     } return false
 // }
-console.log(myFn('    '))
+
+
+// let num = [12,54,34]
+// console.log(`${Math.max(...num)} ${Math.min(...num)}`);
+
+function whoIsPaying(name){
+    let names = name !== '' && name.length > 1 ? name + name.slice(0,2) : ''
+    let str = name.length == 1 ? name.split('') : names
+    return str.split()
+  } 
+console.log(whoIsPaying('Alani'));
