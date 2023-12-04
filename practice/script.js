@@ -113,9 +113,22 @@
 // let num = [12,54,34]
 // console.log(`${Math.max(...num)} ${Math.min(...num)}`);
 
-function whoIsPaying(name){
-    let names = name !== '' && name.length > 1 ? name + name.slice(0,2) : ''
-    let str = name.length == 1 ? name.split('') : names
-    return str.split()
-  } 
-console.log(whoIsPaying('Alani'));
+
+
+// iiiiiihhyyyyyyyyyy
+// function whoIsPaying(name){
+//     let names = name !== '' && name.length > 1  ? name.split(' ').concat(name.slice(0,2).split(' '))  : ''
+//     let str = name.length == 1 ? name.split(''): names
+//     let string = name == '' ? name.split(' ') : str
+//     return string
+//   } 
+// console.log(whoIsPaying(''))
+
+
+// ?
+
+function createPhoneNumber(numbers){
+    let res = `${'('}${numbers.slice(0,3)}${')'}`
+    return res.replaceAll(',','') + " ".concat(numbers.slice(3,6).join('')) + '-'.concat(numbers.slice(7).join(''))
+}
+console.log(createPhoneNumber([1,2,3,4,5,6,7,8,9,7,0]));
