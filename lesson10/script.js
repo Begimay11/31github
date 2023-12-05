@@ -115,11 +115,13 @@
 // user.name = 'Azat'
 // console.log(user);
 
-// task 15
+// // task 15
 // let product = {
 //     name: "headphones",
-//     price: 73,
+//     price: 703,
 //     discount: 0
 //     }
 //     let res = product.price > 100 ? product.price - product.price * 0.1 :product.price -  product.price * 0.07
+//     let disc = product.price > 100 ? product.discount = '10%' : product.discount = '7%'
 //     console.log(res);
+//     console.log(disc);
