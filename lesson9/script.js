@@ -40,7 +40,6 @@
 // console.log(namer.slice(0,middle) + namer[middle].toUpperCase() + namer.slice(middle+1));
 
 
-    
 
 
 
