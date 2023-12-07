@@ -203,3 +203,27 @@
 //     console.log(text.charAt(index));
 //     index++
 // }
+
+
+
+// ?
+// function smallEnough(a, limit){
+//     let res = a == limit
+//     // let result = res.reduce((el,acc)=> el.a < acc.limit ? true : false)
+//     return limit > a ? 'ooba' : 'jok ai'
+//     // .Number(a) + Number(limit)
+//     // return a.map((el)=> el.length)  > limit.toString() ? true : false
+// }
+// console.log(smallEnough([68, 101], 2000));
+
+
+// var findAverage = function (nums) {
+//     return nums.reduce((acc,el) => acc + el)/ nums.length
+//   }
+//   console.log(findAverage([1, 3, 5, 7]), 4);
+
+
+function count(string) {
+    return string
+  }
+  console.log(count('a'));

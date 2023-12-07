@@ -76,19 +76,73 @@
 
 
 
-let product =  [{name: 'cake', price: 300, sale: 10},
-{name: 'coffee', price: 250, sale: 5},
-{name: 'juice', price: 200, sale: 15},
-{name: 'tea', price: 150, sale: 20},
-{name: 'iceCream', price: 120, sale: 4},
-{name: 'energy', price: 1800, sale: 25},]
+// let product =  [{name: 'cake', price: 300, sale: 10},
+// {name: 'coffee', price: 250, sale: 5},
+// {name: 'juice', price: 200, sale: 15},
+// {name: 'tea', price: 150, sale: 20},
+// {name: 'iceCream', price: 120, sale: 4},
+// {name: 'energy', price: 1800, sale: 25},]
 
-const productFunc = (prod)=> {
-    // let namer = prod.map((el)=> el.name)
-    // let price = prod.map((el)=> el.price)
-    // let sale = prod.map((el)=> el.sale)
-    // let discount = prod.map((el)=> el.price - el.price * (el.sale / 100))
-    // let result = []
-    return prod.map((el)=> `Name: ${el.name}, oldPrice:${el.price},discountedPrice: ${el.price - el.price * (el.sale / 100) + '$'},sale: ${el.sale + '%'}`).join(' '.repeat(200))
-}
-console.log(productFunc(product));
+// const productFunc = (prod)=> {
+//     // let namer = prod.map((el)=> el.name)
+//     // let price = prod.map((el)=> el.price)
+//     // let sale = prod.map((el)=> el.sale)
+//     // let discount = prod.map((el)=> el.price - el.price * (el.sale / 100))
+//     // let result = []
+//     return prod.map((el)=> `Name: ${el.name}, oldPrice:${el.price},discountedPrice: ${el.price - el.price * (el.sale / 100) + '$'},sale: ${el.sale + '%'}`).join(' '.repeat(200))
+// }
+// console.log(productFunc(product));
+
+
+// const square = 8
+// let string = ''
+
+// for(let i = 0; i < square; i++){
+//     for(let k = 0; k < square; k++){
+//         string = string + '*'
+//     }
+//     string = string + '\n'
+// }
+
+// console.log(string);
+
+// let a = +prompt('Kancha jashtasyz?')
+
+// switch(a){
+//     case 18:
+//         alert('Sadikke bar')
+//         break;
+//     case 5:
+//         alert('Jakshylap oinop al')
+//         break
+// }
+
+// if(a > 1 && a < 6){
+//     alert('Sadikke bar')
+// }else if(a >= 7 && a < 18){
+//     alert('Mektepke bar')
+// } else{
+//     alert('Ozuno ylaiyk jash jaz! ')
+// }
+// console.log(a);
+
+
+// let day = prompt('Bir kundun atyn jaz')
+
+// switch(day){
+//     case 'Monday':
+//     case 'Tuesday':
+//     case 'Wednesday':
+//     case 'Thursday':
+//     case 'Friday':
+//         alert('Budniy den')
+//         break;
+//     case 'Saturday':
+//     case  'Sunday': 
+//     alert('Dem alysh')
+//     break
+
+//     default : 
+//     alert('Mynday nerse jok')
+//     break
+// }
