@@ -226,4 +226,4 @@
 function count(string) {
     return string
   }
-  console.log(count('a'));
+  console.log(count('aba'));
