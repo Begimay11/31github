@@ -227,3 +227,13 @@ function count(string) {
     return string
   }
   console.log(count('aba'));
+
+// let resFunc = (str)=> {
+//     return str.filter((el)=> Number(el))
+// }
+// console.log(resFunc(['text', 3, 7, 'github', 13, 'dev']));
+
+// function userName(str){
+//     return str.split('').map((el)=> el + el).join('')
+// }
+// console.log(userName('BegImayka'));

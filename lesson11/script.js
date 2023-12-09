@@ -146,3 +146,102 @@
 //     alert('Mynday nerse jok')
 //     break
 // }
+
+
+// HW
+// task 1
+// let func = (num)=> {
+//     return num.reduce((acc,el)=> acc < el ? acc : el)
+// }
+// console.log(func([3,45, 7,34, 2,0]));
+
+// task 2
+// let nameUser = (str)=> {
+//     return str.toLowerCase().split('').sort().join('')
+// }
+// console.log(nameUser('Hello'))
+
+// task 3
+// let numFunc = (num)=> {
+//     return num.filter((el)=> el % 2 === 0)
+// }
+// console.log(numFunc([1, 2, 3, 4, 5, 6,9,14]));
+
+// // task 4
+// const myFunc = (str)=> {
+//     return str.filter((el)=> Number(el))
+// }
+// console.log(myFunc(['text', 3, 7, 'github', 13, 'dev']));
+
+
+// // task 5
+// const allFunc = (str)=> {
+//     let max = str.reduce((el,acc)=> el > acc ? el : acc)
+//     let min = str.reduce((el,acc)=> el < acc ? el : acc)
+//     let arif = str.reduce((el,acc)=> el + acc)/ str.length
+//     let lengArray = str.length
+//     let allAns = `Мин элемент: ${min}, Макс элемент: ${max}, Длину массива: ${lengArray}, Среднее арифметическое: ${arif}`
+//     return allAns.split()
+// }
+// console.log(allFunc([7,1, 13, 3, 77, 100,290]));
+
+// task 6
+// const myText = (str)=> {
+//     return str.split('').map((el)=> el + el).join('')
+// }
+// console.log(myText('test'));
+
+// task 7
+// const persons = [
+//     {name: 'Ivan', age: 27},
+//     {name: 'Petya', age: 16},
+//     {name: 'Erbol', age: 15},
+//     {name: 'Aktai', age: 46},
+//   ]
+//   let res = persons.filter((el)=> el.age > 18).map((el)=> el.name).join()
+//   console.log(res);
+
+// task 9
+// const chetFunc = (num)=> {
+//     return num.find((el)=> el % 2 === 0)
+// }
+// console.log(chetFunc([5, 7, 33, 88, 92]));
+
+
+// task 10
+// const persons = [
+//     {name: 'Ivan', age: 27},
+//     {name: 'Ivan', age: 99},
+//     {name: 'Petya', age: 16},
+//     {name: 'Dima', age: 24},
+//     {name: 'Petya', age: 16},
+//   ]
+// let res = persons.reduce((acc,el)=> acc.age > el.age ? acc : el).age  
+// console.log(res);
+
+
+
+
+
+
+
+// var items = [
+//     { name: "Edward", value: 21 },
+//     { name: "Sharpe", value: 37 },
+//     { name: "And", value: 45 },
+//     { name: "The", value: -12 },
+//     { name: "Magnetic" },
+//     { name: "Zeros", value: 37 },
+//   ];
+//   items.sort(function (a, b) {
+//     if (a.name > b.name) {
+//       return 1;
+//     }
+//     if (a.name < b.name) {
+//       return -1;
+//     }
+//     // a должно быть равным b
+//     return 0;
+//   });
+
+//   console.log(items);
