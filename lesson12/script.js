@@ -96,9 +96,9 @@
 
 // task 4
 // let arr2 = [5, 2, 1, 2] 
-// let sum = 0
+// let sum = 1
 // for(let i = 0; i< arr2.length; i++){
-//     sum += arr2[i]
+//     sum *= arr2[i]
 // }
 // console.log(sum);
 
@@ -126,7 +126,6 @@
 // }
 // console.log(summ);
 
-
 //  task 8
 // let arr = [3, 4, 6,7,9,14,54,10, 12, 3, 5]
 
@@ -152,16 +151,10 @@
 // }
 
 // task 11
-let num =  [10, 20, 30, 40, 135, 2000]
+// let num =  [10, 20, 30, 40, 135, 2000]
 
 // for(let i = 0; i< num.length; i++){
 //     +num[i].toString()[0] === 2 || +num[i].toString()[0] === 1 || +num[i].toString()[0] === 5  ? console.log(num[i]) :  null 
-// }
-
-// for(let i = 0; i < num.length; i++){
-//     let str = num[i].toString()
-//     let res =  +str[0] == 2 || +str[0] == 1 || +str[0] == 5 ? str[i] : null;
-//     console.log(res);
 // }
 
 // task 12
@@ -172,13 +165,12 @@ let num =  [10, 20, 30, 40, 135, 2000]
 // }
 // console.log(res.split());
 
-// task 13
-let n=1000
-for(let i = 0; i< n; i++){
-    n % 2 === 0
-}
-console.log(n);
-
+// task 13\\
+// let num = 0
+// for(let n = 1000; n >= 50; n= n / 2){
+//      num += 1
+// }
+// console.log(num);
 
 // task 14
 // let a = [1, 2, 3, 7, 6, 9]
@@ -187,3 +179,85 @@ console.log(n);
 //     sum += a[i] / a.length
 // }
 // console.log(sum);
+
+// tasks 15
+// let number = [1, 2, 3, 4, 5]
+// let sum = 1
+// for(let i = 1; i< number.length; i++){
+//     sum *= number[i]
+// }
+// console.log(sum);
+
+// task 16
+// let arr = [1, 2, 4, -1, -3, 8, 7, 0, -5, 18, 12,9]
+// for(let i = 0; i< arr.length; i++){
+//     if(arr[i] > 0 && arr[i] < 10){
+//         console.log(arr[i]);
+//     }
+// }
+
+// task 19
+// let arr = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,82,49]
+// for(let i = 0; i < arr.length; i++){
+//     if(arr[i] % 2 !== 0 && arr[i] > 10){
+//         console.log(arr[i]);
+//     }
+// }
+
+
+
+
+
+
+
+
+
+// task 13
+// let n=1000
+// for(let i = 0; i< n; i++){
+//     n % 2 === 0
+// }
+// console.log(n);
+
+// task 15
+// let num = [1, 2, 3, 4, 5]
+// // let sum = 0
+// let res = 0
+// for(let i = 0; i< num.length;i++){
+//      sum *= num[i]
+//     console.log(sum);
+// }
+// console.log(res);
+// // task 17
+// let array = []
+
+
+// // task 18
+// // task 20
+// let user = 'jcvzszrzpz'
+// // let res = ''
+
+
+// for(let i = 0; i< user.length; i++){
+//      user[i].split('').toLowerCase()
+//     console.log(user);
+// }
+// console.log(user);
+
+// for(let i = 0; i < user.length; i++){
+//     res = user[i].split(' ')
+//     res[i].map((el)=> el % 2 === 0 ? el.toUpperCase() : false)
+//     //  res[i] % 2 !== 0  ? true : null;
+//     console.log(res);
+//     // .toUpperCase()
+// }
+// console.log(res);
+// console.log('khj');
+
+
+
+
+
+
+
+
