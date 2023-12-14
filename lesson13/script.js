@@ -576,10 +576,16 @@
 // let res = user.split('').map((el,idn) => idn % 2 !== 0 ? el.toUpperCase() : el)
 // console.log(res.join(''));
 
+// let num = []
+// for(let i = 0; i<= 10; i++){
+//     num.push(Math.round(Math.random()* 10));
+// }
+// console.log(num);
 
 
-
-
+String.prototype.digit = function() {
+    return false;
+  };
 
 
 
