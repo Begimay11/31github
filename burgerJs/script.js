@@ -4,6 +4,18 @@ const span2 = document.querySelector('.span2')
 const span3 = document.querySelector('.span3')
 const imgFood = document.querySelector('.img-food')
 const menuBurgers = document.querySelector('.menu')
+const burgerMenu = document.querySelector('.burgerMenu')
+const imgMenu = document.querySelector('.img-menu')
+const menuIcons = document.querySelector('.menuLast')
+const categories = document.querySelector('.category')
+const Blogs = document.querySelector('.Blogs')
+const About = document.querySelector('.About')
+const menuCategory = document.querySelector('.menus')
+const blogImg = document.querySelector('.blogImg')
+const textBlog = document.querySelector('.textBlog')
+const realCategory = document.querySelector('.realCategory')
+const cateClass = document.querySelector('.categories')
+
 
 let burger = false
 
@@ -19,5 +31,40 @@ spanDiv.addEventListener('click', ()=> {
 
     span3.style.transform = burger ? 'rotate(-225deg)' : ''
     span3.style.bottom = burger ? '19px' : ''
+})
+
+burgerMenu.addEventListener('click', ()=> {
+    menuBurgers.style.display = 'none'
+    spanDiv.style.display = 'none'
+    imgMenu.style.display = 'block'
+    menuIcons.style.display = 'block'
+})
+menuIcons.addEventListener('click', ()=> {
+    menuBurgers.style.display = 'block'
+    spanDiv.style.display = 'block'
+    imgMenu.style.display = 'none'
+    menuIcons.style.display = 'none'
+    menuCategory.style.display = 'none'
+    blogImg.style.display = 'none'
+    cateClass.style.display = 'none'
+})
+realCategory.addEventListener('click',()=> {
+    menuBurgers.style.display = 'none'
+    spanDiv.style.display = 'none'
+    menuIcons.style.display = 'block'
+    cateClass.style.display = 'block'
+})
+About.addEventListener('click', ()=> {
+    menuCategory.style.display = 'block'
+    menuBurgers.style.display = 'none'
+    spanDiv.style.display = 'none'
+    menuIcons.style.display = 'block'
+})
+Blogs.addEventListener('click', ()=> {
+    menuBurgers.style.display = 'none'
+    spanDiv.style.display = 'none'
+    menuIcons.style.display = 'block'
+    blogImg.style.display = 'block'
+    textBlog.style.display = 'block'
 })
 
