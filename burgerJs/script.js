@@ -21,10 +21,6 @@ let timer = setTimeout(function run(){
     realCategory(cateClass);
     timer = setTimeout(run,2000)
 },2000)
-// for(let key of cateClass){
-//     setTimeout((key),1000)
-// }
-// setTimeout(cateClass, 1000)
 let burger = false
 
 spanDiv.addEventListener('click', ()=> {

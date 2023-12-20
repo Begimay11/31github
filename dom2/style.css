@@ -1,0 +1,41 @@
+body{
+    background: black;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-left: 60px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 30px 10px 10px 30px;
+    margin: 5px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 900px;
+    padding: 50px 0;
+    gap: 1rem;
+}
+.active{
+    background: none;
+    color: aliceblue;
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.clear{
+    background: none;
+    color: aliceblue;
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
