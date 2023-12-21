@@ -39,38 +39,28 @@ const red = document.querySelector('.red')
 const yellow = document.querySelector('.yellow')
 const green = document.querySelector('.green')
 
-red.addEventListener('click',()=> {
-    yellow.style.background = 'none'
-    green.style.background = 'none'
-})
-yellow.addEventListener('click',()=> {
-    red.style.background = 'none'
-    green.style.background = 'none'
-})
-green.addEventListener('click',()=> {
-    red.style.background = 'none'
-    yellow.style.background = 'none'
-})
-// setInterval(()=> {
-//     sveto.forEach(el => {
-//         // el.style.background = 'red'
-//     });
-// },2000)
+let color = 'green'
 
-function svetofors (){
-    // setInterval(()=> {
-    //     sveto.forEach(el => {
-    //         // el.style.background = ''
-    //     });
-    // },2000)
-}
-console.log(svetofors());
-// setInterval(()=> {
-//     sveto.forEach(el => {
-//         el.addEventListener('mouseover',()=> {
-//             yellow.style.background = 'none'
-//             green.style.background = 'none' 
-//         })
-//     });
-// },1000)
+setInterval(()=> {
+    color = color === 'red' ? 'green' : 'red'
+ },4000)
+
+ setInterval(()=> {
+    yellow.style.background = 'yellow'
+    green.style.background = 'none' 
+    red.style.background = 'none'  
+
+ },2000)
+
+setInterval(()=> {
+    yellow.style.background = 'none'
+    if( color === 'red'){
+        green.style.background = 'green' 
+         red.style.background = 'none' 
+    }
+     else{
+        red.style.background = 'red'
+        green.style.background = 'none' 
+     } 
+},4000)
 
