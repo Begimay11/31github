@@ -1,0 +1,41 @@
+body{
+    background: black;
+}
+.svetofor{
+    width: 170px;
+    height: 500px;
+    border: 1px solid white;
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 39px;
+}
+.red{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: transparent;
+    margin: 0 auto;
+}
+.yellow{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin: 0 auto;
+}
+.green{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: transparent;
+    margin: 0 auto;
+}
+.foot{
+    width: 30px;
+    height: 235px;
+    border: 1px solid white;
+    margin: 0 auto;
+}
