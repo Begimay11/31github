@@ -10,18 +10,22 @@ const menuIcons = document.querySelector('.menuLast')
 const categories = document.querySelector('.category')
 const Blogs = document.querySelector('.Blogs')
 const About = document.querySelector('.About')
+const industri = document.querySelector('.industri')
+const sertificate = document.querySelector('.sertificate')
 const menuCategory = document.querySelector('.menus')
 const blogImg = document.querySelector('.blogImg')
 const textBlog = document.querySelector('.textBlog')
 const realCategory = document.querySelector('.realCategory')
 const cateClass = document.querySelector('.categories')
+const garniry = document.querySelector('.garniry')
+const deserty = document.querySelector('.deserty')
+const sousy = document.querySelector('.sousy')
+const pizza = document.querySelector('.pizza')
+const sushi = document.querySelector('.sushi')
+const group = document.querySelector('.group')
 
-console.log(cateClass);
-let timer = setTimeout(function run(){
-    realCategory(cateClass);
-    timer = setTimeout(run,2000)
-},2000)
 let burger = false
+// sertificate.style.display = 'none'
 
 spanDiv.addEventListener('click', ()=> {
     burger = !burger
@@ -51,18 +55,42 @@ menuIcons.addEventListener('click', ()=> {
     menuCategory.style.display = 'none'
     blogImg.style.display = 'none'
     cateClass.style.display = 'none'
+    group.style.display = 'none'
+    sertificate.style.display = 'none'
 })
 realCategory.addEventListener('click',()=> {
     menuBurgers.style.display = 'none'
     spanDiv.style.display = 'none'
     menuIcons.style.display = 'block'
     cateClass.style.display = 'block'
+
+    setTimeout(()=> {
+    garniry.style.opacity = '1'
+    garniry.style.color = 'black'
+    },1000)
+
+    setTimeout(()=> {
+    deserty.style.opacity = '1'
+    deserty.style.color = 'black'
+    },2000)
+    setTimeout(()=> {
+    sousy.style.opacity = '1'
+    sousy.style.color = 'black'
+    },3000)
+    setTimeout(()=> {
+    pizza.style.opacity = '1'
+    pizza.style.color = 'black'
+    },4000)
+    setTimeout(()=> {
+    sushi.style.opacity = '1'
+    sushi.style.color = 'black'
+    },5000)
 })
 About.addEventListener('click', ()=> {
-    menuCategory.style.display = 'block'
     menuBurgers.style.display = 'none'
     spanDiv.style.display = 'none'
     menuIcons.style.display = 'block'
+    group.style.display = 'block'
 })
 Blogs.addEventListener('click', ()=> {
     menuBurgers.style.display = 'none'
@@ -71,4 +99,12 @@ Blogs.addEventListener('click', ()=> {
     blogImg.style.display = 'block'
     textBlog.style.display = 'block'
 })
+industri.addEventListener('click',()=> {
+    menuBurgers.style.display = 'none'
+    spanDiv.style.display = 'none'
+    sertificate.style.display = 'block'
+    // sertificate.style.display = 'block'
+    menuIcons.style.display = 'block'
+})
+console.log(sertificate);
 

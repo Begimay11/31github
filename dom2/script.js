@@ -3,16 +3,20 @@
 // const active = document.querySelector('.active')
 // const clear = document.querySelector('.clear')
 
-// box.forEach(el => {
-//     el.addEventListener('mouseover',()=> {
-//         el.style.background = randomColor()
-//         el.style.boxShadow = `0 0 30px ${randomColor()}`
-//     })
-//     el.addEventListener('mouseout',()=> {
-//         el.style.background = ''
-//         el.style.boxShadow = ''
-//     })
-// })
+// for(let el of box){
+//     el.style.background = 'red'
+// }
+
+// // box.forEach(el => {
+// //     el.addEventListener('mouseover',()=> {
+// //         el.style.background = randomColor()
+// //         el.style.boxShadow = `0 0 30px ${randomColor()}`
+// //     })
+// //     el.addEventListener('mouseout',()=> {
+// //         el.style.background = ''
+// //         el.style.boxShadow = ''
+// //     })
+// // })
 // active.addEventListener('click', ()=> {
 //     box.forEach(el => {
 //         el.style.background = randomColor()
@@ -33,14 +37,15 @@
 //     })
 // })
 
+
 // // function colors () {
-// let int = setInterval(()=> {
+//     let int = setInterval(()=> {
 //         box.forEach(el => {
 //             el.style.background = randomColor()
 //             el.style.boxShadow = `0 0 30px ${randomColor()}`
 //         })
 //     },1000)
-// // }
+//     // }
 
 
 
@@ -52,3 +57,5 @@
 //     return color
 // }
 // console.log(randomColor());
+
+
