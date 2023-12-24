@@ -67,3 +67,13 @@ const randomDiv = ()=> {
 //         charac.style.top = e.pageY + 'px'
 //     })
 // }
+
+
+
+
+// ls-> kaisy jakta turganyn korsotup beret papka
+// cd -> puti kuda nam nado 
+// cd Desktop -> rab.stolgo otot
+// cd 
+// cd papkanyn aty -> 
+// cd oshol papkanyn aty
